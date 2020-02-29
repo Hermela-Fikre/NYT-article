@@ -8,9 +8,11 @@
 main{
   width: 1170px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 210px;
+  
 }
+
+/* WORKING ON HEADER */
+
 .header-navbar {
   box-shadow: 0 1px 2px -1px gray;
   background-color: white;
@@ -23,6 +25,7 @@ main{
   text-align: center;
   z-index: 1;
 }
+
 .icon {
   height: 33px;
   width: 34px;
@@ -91,7 +94,7 @@ cursor: pointer;
   border:1px solid #326891;
 }
 
-/*  WORKING ON SECTION HEADER */
+/*  WORKING ON SECTION-HEADER */
 
 .section-header{
   margin-top: 42px;
@@ -104,7 +107,7 @@ cursor: pointer;
 .first-photo{
   max-width: 945px;
   min-width: 500px;
-  margin: 20px 200px 40px 200px;
+  margin: 20px auto 40px auto;
 }
 .first-photo img {
   width: 100%;
@@ -116,9 +119,11 @@ cursor: pointer;
 }
 
 /* WORKING ON DIV-CONTAINER */
-.div-container section{
+.section-grid{
   margin-right: 90px;
   margin-left: 270px;
+  display: grid;
+  grid-template-columns: 1fr 210px;
 }
 
 .section-intro-header-date-n-btns{

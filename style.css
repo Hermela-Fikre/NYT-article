@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   font-size: 12px;
+  text-decoration: none;
+}
+a{
+  color: black;
 }
 main{
   width: 1170px;
@@ -206,5 +210,38 @@ cursor: pointer;
   }
 /* WORKING ON SIDEBAR */
 .sidebar{
+}
+
+/* WORKING ON PRE-FOOTER SECTION */
+.last-grid{
+  display: grid;
+  grid-template-columns: 1fr 315px;
+}
+
+.more-space {
+  display: flex;
+  flex-wrap: wrap;
+}
+.more-divs {
+  flex: 1 1 270px;
+  margin: 5px;
+  width: 270px;
+}
+.more-divs img, .more-divs p{
+  max-width: 270px;
+}
+.more-divs h3 {
+  max-width: 262px;
+}
+
+.popular-sidebar{
+  margin-left: 30px;
+}
+.last-section h2 {
+  padding-top: 17px;
+  border-top: 1px solid black;
+}
+.popular-sidebar a{
+  display: block;
 }
 /* TESTS */

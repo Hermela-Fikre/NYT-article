@@ -6,6 +6,7 @@
   font-size: 12px;
   text-decoration: none;
   color: #333333;
+  list-style-type: none;
 }
 a{
   color: #333333;
@@ -37,7 +38,7 @@ img {
   font-weight: 700;
   font-family: 'nyt-frankin', Arial, Helvetica, sans-serif;
 }
-.h2-hover:hover {
+.h2-hover:hover, .footer-last-section a:hover, .categories-links:hover, .subscribe-links:hover {
   text-decoration: underline;
 }
 
@@ -253,9 +254,7 @@ cursor: pointer;
   .footer-last-section a {
     color: #666666;
   }
-  .footer-last-section a:hover{
-    text-decoration: underline;
-  }
+
   .footer-last-section-div {
     margin-top: 20px;
     display: flex;
@@ -284,6 +283,7 @@ cursor: pointer;
 }
 .editors-picks-flex{
   grid-area: e;
+  padding-bottom: 40px;
 }
 .more-space {
   display: flex;
@@ -322,5 +322,81 @@ cursor: pointer;
 /* WORKING ON EDITORS-PICKS */
 .editors-picks-flex{
   display: flex;
+}
+/* WORKING ON CATEGORIES SECTION */
+.categories-container{
+  max-width: 1200px;
+  min-width: 600px;
+  margin: 0 auto;
+}
+.categories-container:before{
+  border-bottom: 1px solid #e2e2e2;
+    border-top: 2px solid #e2e2e2;
+    content: '';
+    display: block;
+    height: 1px;
+    margin-top: 0;
+}
+.categories{
+  display: flex;
+}
+.categories > div{
+  width: 195px;
+}
+.categories-title {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+}
+.categories-links{
+  color: #000000;
+  width: 150px;
+  line-height: 1.7;
+  font-size: 14px;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+/* SUBSCRIBE CATEGORIE */
+.categorie-subscribe {
+  box-shadow: -1px 0px 0px 0px #aaaaaa;
+  padding-left: 10px;
+}
+.categorie-subscribe h3{
+  margin-left: 10px;
+}
+.categories-icons svg{
+  width: 15px;
+  height: 15px;
+}
+.categories-icons {
+  padding-right: 5px;
+}
+.subscribe-links{
+  padding: 0 0 5px 10px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #121212;
+}
+.subscribe-list li{
+  height: 25px;
+  margin-bottom: 10px;
+}
+.div-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.homepage-anchor{
+  font-size: 11px;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  color: #567b95;
+}
+.footer-logo{
+  margin: 10px 0 20px 0;
 }
 /* TESTS */

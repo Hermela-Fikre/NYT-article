@@ -272,13 +272,24 @@ cursor: pointer;
 .last-grid{
   display: grid;
   grid-template-columns: 1fr 315px;
+  grid-template-rows: auto;
+  grid-template-areas: "m s"
+                       "e s";
 }
-
+.more{
+  grid-area: m;
+}
+.popular-sidebar{
+  grid-area: s;
+}
+.editors-picks-flex{
+  grid-area: e;
+}
 .more-space {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 20px;
-  border-bottom: 1px solid black;
+
 }
 .more-divs {
   flex: 1 1 270px;
@@ -311,7 +322,5 @@ cursor: pointer;
 /* WORKING ON EDITORS-PICKS */
 .editors-picks-flex{
   display: flex;
-  grid-column-start: 1;
-  grid-column-end: 1;
 }
 /* TESTS */

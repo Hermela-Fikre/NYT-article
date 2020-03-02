@@ -15,10 +15,12 @@ main{
   width: 1170px;
   margin: 0 auto;
 }
-img {
+img, iframe {
   width: 100%;
 }
-
+.iframe{
+  padding-bottom: 15px;
+}
 .paragraph {
   font-size: 20px;
   font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
@@ -38,7 +40,10 @@ img {
   font-weight: 700;
   font-family: 'nyt-frankin', Arial, Helvetica, sans-serif;
 }
-.h2-hover:hover, .footer-last-section a:hover, .categories-links:hover, .subscribe-links:hover, .footer-links:hover, .subscribe-small-list a:hover {
+.h2-hover {
+  margin-bottom: 0;
+}
+.h2-hover:hover, .categories-links:hover, .subscribe-links:hover, .footer-links:hover, .subscribe-small-list a:hover {
   text-decoration: underline;
 }
 
@@ -63,10 +68,7 @@ img {
   margin-top: 5px;
   color: #999999;
 }
-.theory{
-  font-size: 14px;
-  font-family: 'nyt-franklin', Georgia, 'Times New Roman', Times, serif;
-}
+
 /* WORKING ON HEADER */
 
 .header-navbar {
@@ -175,11 +177,25 @@ padding-bottom: 30px;
 }
 .first-photo img {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: -10px;
 }
 .first-photo figcaption {
   min-width: 30%;
   max-width: 75%;
+  font-size: 15px;
+  font-family: 'nyt-imperial' Georgia, 'Times New Roman', Times, serif;
+  color: #666666;
+}
+.captions{
+  font-size: 15px;
+  font-family: 'nyt-imperial' Georgia, 'Times New Roman', Times, serif;
+  color: #666666;
+  padding: 15px 0;
+
+}
+.captions span {
+  font-size: 13px;
+  color: #888888;
 }
 
 /* WORKING ON ICONS */
@@ -191,13 +207,21 @@ padding-bottom: 30px;
   height: 27px;
   padding: 5px;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .icons svg:hover{
   border: 1px solid #eee;
   border-radius: 100%;
   background-color: transparent;
 }
+.icon-comments {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.icon-comments img{
+  width: 35px;
+}
+
 .send, .share{
   border:none;
   background: transparent;
@@ -223,43 +247,81 @@ padding-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
+}
+.section-intro-header h3 {
+  font-size: 15px;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  padding-bottom: 15px;
+}
+time {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
 }
 
 /* WORKING ON THEORY SECTION */
 
+.theory{
+  font-size: 14px;
+  font-family: 'nyt-franklin', Georgia, 'Times New Roman', Times, serif;
+}
+.theory-p{
+  font-size: 14px;
+  color: #666666;
+  margin: -15px 0 10px 0;
+}
   .theory-txt1 {
     display: flex;
     position: relative;
-    bottom: 490px;
+    bottom: 470px;
     left: 100px;
     width: 1000px;
   }
   .theory-txt2 {
     display: flex;
     position: relative;
-    bottom: 300px;
+    bottom: 280px;
     left: 100px;
     width: 1000px;
   }
   .theory-txt1 p, .theory-txt2 p {
     width: 230px;
     margin-right: 16px;
+    font-size: 14px;
+    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   }
-
+  .strong{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 11px;
+    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  }
   .theory-bar {
-    margin-top: -265px;
-    margin-left: 30px;
-    width: 100px;
+    margin-top: -260px;
+    margin-left: 100px;
+    width: 70px;
     border: 0.5px solid black;
   }
-
+  .theory-cap{
+    padding: 20px 0;
+    position: relative;
+    left: 100px;
+    font-size: 14px;
+    font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  }
   /* footer 2nd section */
   .footer-last-section {
     margin: 30px 0 55px 0;
     color: #666666;
+    font-family: 'nyt-franklin', Helvetica, Arial, sans-serif;
+    font-size: 12px;
   }
   .footer-last-section a {
     color: #666666;
+    text-decoration: underline;
+  }
+  .footer-last-section a:hover, .paragraph-link:hover {
+    text-decoration: none;
   }
 
   .footer-last-section-div {
@@ -292,6 +354,7 @@ padding-bottom: 30px;
 .editors-picks-flex{
   grid-area: e;
   padding-bottom: 40px;
+  margin-top: -10px;
 }
 .more-space {
   display: flex;
@@ -301,7 +364,8 @@ padding-bottom: 30px;
 }
 .more-divs {
   flex: 1 1 270px;
-  margin: 5px;
+  gap: 5px;
+  margin-top: 20px;
   width: 270px;
 }
 .more-divs img, .more-divs p{
@@ -484,3 +548,9 @@ footer nav ul li {
 
 }
 /* TESTS */
+.paragraph-link{
+  color: #326891;
+  font-size: 20px;
+  font-family: 'nyt-franklin', Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}

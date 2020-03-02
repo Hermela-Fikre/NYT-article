@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo](------)
+[Live Demo](https://raw.githack.com/Kevinalvesdev/NYT-article/NYT-Clone/index.html)
 
 ## Getting Started
 

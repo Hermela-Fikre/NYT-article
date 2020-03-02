@@ -21,6 +21,9 @@ img, iframe {
 .iframe{
   padding-bottom: 15px;
 }
+iframe{
+  border: none;
+}
 .paragraph {
   font-size: 20px;
   font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
@@ -249,10 +252,14 @@ padding-bottom: 30px;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.section-intro-header h3 {
+.section-intro-header h3, .section-intro-header a {
   font-size: 15px;
   font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   padding-bottom: 15px;
+}
+.section-intro-header a {
+  text-decoration: underline;
+  cursor: pointer;
 }
 time {
   font-family: Helvetica, Arial, sans-serif;
@@ -320,7 +327,7 @@ time {
     color: #666666;
     text-decoration: underline;
   }
-  .footer-last-section a:hover, .paragraph-link:hover {
+  .footer-last-section a:hover, .paragraph-link:hover, .section-intro-header a:hover {
     text-decoration: none;
   }
 
@@ -334,9 +341,58 @@ time {
   }
 /* WORKING ON SIDEBAR */
 .sidebar{
-  
+  position: relative;
+  left: 100px;
+  top: 700px;
 }
-
+#paid-p, #strong-p{
+  margin-left:15px;
+  padding-right: 20px;
+}
+#strong-p{
+  width: 100%;
+  font-size: 10px;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#paid-p{
+  width: 100%;
+  font-size: 12px;
+  font-family: 'nyt-cheltenham-small', Georgia, 'Times New Roman', Times, serif ;
+}
+.sidebar-title{
+  box-shadow: 0 5px 1px -5px #333;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-family: 'nyt-franklin', Helvetica, Arial, sans-serif;
+}
+.sidebar div{
+  width: 210px;
+  height: 78px;
+}
+.sidebar img {
+  width: 75px;
+  height: 75px;
+}
+.sidebar-rec a, .sidebar-paid a{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.side-p{
+  width: 100%;
+  margin: 10px 13.5px 0 13.5px;
+  font-size: 13.3px;
+  font-family: 'nyt-cheltenham-small', Georgia, 'Times New Roman', Times, serif ;
+}
+.sidebar-paid a {
+  background-color: #F6F6F6;
+  padding: 10px 10px 10px 5px;
+}
+.sidebar-paid:hover, .sidebar-rec:hover{
+  text-decoration: underline;
+}
 /* WORKING ON PRE-FOOTER SECTION */
 .last-grid{
   display: grid;
@@ -468,9 +524,12 @@ time {
   height: 15px;
 }
 .subscribe-bar{
-
-  height: 0.1px;
-  margin-bottom:15px;
+  border-top: 1px solid #e2e2e2;
+  margin-top: 2px;
+  padding-top: 10px;
+}
+.subscribe-pedd{
+  padding-top: 10px;
 }
 .div-footer{
   display: flex;

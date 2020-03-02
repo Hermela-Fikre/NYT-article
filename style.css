@@ -2,13 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
+  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   font-size: 12px;
   text-decoration: none;
   color: #333;
   list-style-type: none;
+  object-fit: contain;
 }
-
+body{
+  max-width: 100%;
+}
 a {
   color: #333;
 }
@@ -30,17 +33,38 @@ img
 iframe {
   border: none;
 }
-.paragraph {
+
+/* CLASSES OF GENERAL PROPORSE */
+
+.paragraph, .h3-title, .paragraph-link{
   font-size: 20px;
-  font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
+}
+.more-divs-cap, .strong-p {
+  font-size: 10px
+}
+.nav-link a, .theory p, .sidebar-title, .categories-links, .expand p {
+  font-size: 14px;
+}
+.strong, .subscribe-smaller-links, .homepage-anchor, .footer-links {
+  font-size: 11px;
+}
+.btn, .captions span, time, .categories-title {
+  font-size: 13px;
+}
+.captions, .section-intro-header h3, .section-intro-header a, .fixed-bottom p {
+  font-size: 15px;
+}
+
+.paragraph {
   margin-bottom: 15px;
   line-height: 1.5;
 }
 .h3-title {
-  font-size: 20px;
   font-weight: bold;
-  font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 20px;
+}
+.captions, .h3-title, .paragraph {
+  font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
 }
  .h2-hover
  ,.popular-title {
@@ -48,7 +72,6 @@ iframe {
   font-size: 17px;
   color: #333;
   font-weight: 700;
-  font-family: 'nyt-frankin', Arial, Helvetica, sans-serif;
 }
 .h2-hover {
   margin-bottom: 0;
@@ -64,7 +87,6 @@ iframe {
 .more-divs-cap {
   font-family: 'nyt-cheltenham-small', Georgia, 'Times New Roman', Times, serif;
   text-align: right;
-  font-size: 10px;
   color: #999999;
   margin-bottom: 4px;
 }
@@ -132,7 +154,7 @@ iframe {
   text-transform: uppercase;
   font-weight: 700;
   color: black;
-  font-size: 14px;
+
 }
 .main-logo {
   height: 27px;
@@ -155,9 +177,7 @@ iframe {
   background-color: #567b95;
   outline: none;
   border: 1px solid #326891;
-  font-size: 13px;
   font-weight: 600;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   padding: 9px 7px 7px 7px;
   border-radius: 3px;
   margin-left: 5px;
@@ -199,7 +219,6 @@ iframe {
   color: #666666;
 }
 .captions {
-  font-size: 15px;
   color: #666666;
   padding: 15px 0;
 }
@@ -207,7 +226,7 @@ iframe {
   font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
 }
 .captions span {
-  font-size: 13px;
+
   color: #888888;
 }
 
@@ -265,8 +284,6 @@ iframe {
 }
 .section-intro-header h3,
 .section-intro-header a {
-  font-size: 15px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   padding-bottom: 15px;
 }
 .section-intro-header a {
@@ -275,17 +292,10 @@ iframe {
 }
 time {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 13px;
 }
 
 /* WORKING ON THEORY SECTION */
-
-.theory {
-  font-size: 14px;
-  font-family: 'nyt-franklin', Georgia, 'Times New Roman', Times, serif;
-}
 .theory-p {
-  font-size: 14px;
   color: #666666;
   margin: -15px 0 10px 0;
 }
@@ -307,14 +317,11 @@ time {
 .theory-txt2 p {
   width: 230px;
   margin-right: 16px;
-  font-size: 14px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+
 }
 .strong {
   text-transform: uppercase;
   font-weight: 900;
-  font-size: 11px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
 .theory-bar {
   margin-top: -260px;
@@ -326,15 +333,12 @@ time {
   padding: 20px 0;
   position: relative;
   left: 100px;
-  font-size: 14px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  width: fit-content;
 }
 /* footer 2nd section */
 .footer-last-section {
   margin: 30px 0 55px 0;
   color: #666666;
-  font-family: 'nyt-franklin', Helvetica, Arial, sans-serif;
-  font-size: 12px;
 }
 .footer-last-section a {
   color: #666666;
@@ -366,21 +370,17 @@ time {
 }
 .strong-p {
   width: 100%;
-  font-size: 10px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
 }
 .paid-p {
   width: 100%;
-  font-size: 12px;
   font-family: 'nyt-cheltenham-small', Georgia, 'Times New Roman', Times, serif;
 }
 .sidebar-title {
   box-shadow: 0 5px 1px -5px #333;
   padding-bottom: 15px;
-  font-size: 14px;
-  font-family: 'nyt-franklin', Helvetica, Arial, sans-serif;
 }
 .sidebar div {
   width: 210px;
@@ -489,17 +489,14 @@ time {
 }
 .categories-title {
   text-transform: uppercase;
-  font-size: 13px;
   font-weight: 700;
   padding-bottom: 10px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+
 }
 .categories-links {
   color: #000000;
   width: 150px;
   line-height: 1.7;
-  font-size: 14px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   text-transform: capitalize;
 }
 
@@ -522,7 +519,6 @@ time {
   padding: 0 0 5px 10px;
   text-transform: capitalize;
   font-size: 16px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: #121212;
 }
@@ -530,8 +526,6 @@ time {
   margin-bottom: 10px;
 }
 .subscribe-smaller-links {
-  font-size: 11px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   text-transform: capitalize;
 }
 .subscribe-small-list {
@@ -551,8 +545,6 @@ time {
   align-items: baseline;
 }
 .homepage-anchor {
-  font-size: 11px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
   color: #567b95;
 }
 .footer-logo {
@@ -571,8 +563,6 @@ footer nav ul li {
   padding: 10px 0;
 }
 .footer-links {
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
-  font-size: 11px;
   color: #777777;
 }
 
@@ -593,9 +583,7 @@ footer nav ul li {
   cursor: pointer;
 }
 .fixed-bottom p {
-  font-size: 15px;
   font-weight: 600;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
 .expand {
   display: flex;
@@ -608,8 +596,6 @@ footer nav ul li {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
-  font-size: 14px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
 }
 .btn-fixed-bottom {
   transform: rotate(-90deg);
@@ -620,7 +606,6 @@ footer nav ul li {
 /* TESTS */
 .paragraph-link {
   color: #326891;
-  font-size: 20px;
   font-family: 'nyt-franklin', Georgia, 'Times New Roman', Times, serif;
   text-decoration: underline;
 }

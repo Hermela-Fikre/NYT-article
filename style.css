@@ -676,8 +676,8 @@ footer nav ul li {
 .section-intro-header a:hover {
   text-decoration: none;
 }
-/* WORKING ON FOOTER */
 
+/* WORKING ON FOOTER */
 footer {
   width: fit-content;
   margin: 0 auto 70px auto;
@@ -732,7 +732,3 @@ footer nav ul {
   border: none;
   background: none;
 }
-
-/* TESTS */
-
-

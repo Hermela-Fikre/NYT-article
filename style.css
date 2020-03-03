@@ -32,15 +32,15 @@ main {
   margin-left: 40px;
 }
 
+img {
+  width: 100%;
+  cursor: pointer;
+}
+
 .sidebar img {
   width: 100px;
   height: 100px;
   align-items: center;
-}
-
-img {
-  width: 100%;
-  cursor: pointer;
 }
 
 .iframe {

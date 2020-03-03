@@ -2,71 +2,89 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
+  font-family: "nyt-imperial", Georgia, "Times New Roman", Times, serif;
   font-size: 12px;
   text-decoration: none;
   color: #333333;
   list-style-type: none;
 }
-a{
+
+a {
   color: #333333;
 }
-main{
+
+main {
   width: 1170px;
   margin: 0 auto;
 }
+
 img {
   width: 100%;
 }
 
 .paragraph {
   font-size: 20px;
-  font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
+  font-family: "nyt-imperial", Georgia, "Times New Roman", Times, serif;
   margin-bottom: 15px;
   line-height: 1.5;
 }
+
 .h3-title {
   font-size: 20px;
   font-weight: bold;
-  font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
+  font-family: "nyt-imperial", Georgia, "Times New Roman", Times, serif;
   margin-bottom: 20px;
 }
-.h2-hover, .popular-title{
+
+.h2-hover,
+.popular-title {
   margin-bottom: 20px;
   font-size: 17px;
   color: #333333;
   font-weight: 700;
-  font-family: 'nyt-frankin', Arial, Helvetica, sans-serif;
+  font-family: "nyt-frankin", Arial, Helvetica, sans-serif;
 }
-.h2-hover:hover, .footer-last-section a:hover, .categories-links:hover, .subscribe-links:hover, .footer-links:hover, .subscribe-small-list a:hover {
+
+.h2-hover:hover,
+.footer-last-section a:hover,
+.categories-links:hover,
+.subscribe-links:hover,
+.footer-links:hover,
+.subscribe-small-list a:hover {
   text-decoration: underline;
 }
 
-.more-divs-cap{
-  font-family: 'nyt-cheltenham-small', Georgia, 'Times New Roman', Times, serif;
+.more-divs-cap {
+  font-family: "nyt-cheltenham-small", Georgia, "Times New Roman", Times, serif;
   text-align: right;
   font-size: 10px;
   color: #999999;
   margin-bottom: 4px;
 }
-.more-divs-h3{
+
+.more-divs-h3 {
   font-size: 18px;
-  font-family: 'nyt-cheltenham', Georgia, 'Times New Roman', Times, serif;
+  font-family: "nyt-cheltenham", Georgia, "Times New Roman", Times, serif;
   color: #121212;
   font-weight: 100px;
 }
-.more-divs-h3:hover, .popular-sidebar a:hover{
+
+.more-divs-h3:hover,
+.popular-sidebar a:hover {
   color: #777777;
 }
+
 .more-divs-date {
-  font-family: 'nyt-franklin', Georgia, 'Times New Roman', Times, serif;
+  font-family: "nyt-franklin", Georgia, "Times New Roman", Times, serif;
   margin-top: 5px;
   color: #999999;
 }
-.theory{
+
+.theory {
   font-size: 14px;
-  font-family: 'nyt-franklin', Georgia, 'Times New Roman', Times, serif;
+  font-family: "nyt-franklin", Georgia, "Times New Roman", Times, serif;
 }
+
 /* WORKING ON HEADER */
 
 .header-navbar {
@@ -90,25 +108,32 @@ img {
   background-color: white;
   cursor: pointer;
   transition: ease 0.6s;
-    transition-property: all;
-    transition-duration: 0.6s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
+  transition-property: all;
+  transition-duration: 0.6s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
   margin-right: 8px;
 }
+
 .icon:hover {
   background-color: #f0f0f0;
   border-radius: 5px;
 }
+
 .icon svg {
   width: 16px;
 }
-.menu-div,.search-div, .nav-link {
+
+.menu-div,
+.search-div,
+.nav-link {
   float: left;
 }
+
 .nav-link {
-  margin: 7px 0 5px 0
+  margin: 7px 0 5px 0;
 }
+
 .nav-link a {
   text-decoration: none;
   text-transform: uppercase;
@@ -116,74 +141,84 @@ img {
   color: black;
   font-size: 14px;
 }
-.main-logo{
+
+.main-logo {
   height: 27px;
   display: inline-block;
   margin-top: 7px;
   cursor: pointer;
   padding: 6px auto 0;
 }
+
 .main-logo svg {
   height: 100%;
 }
 
 /* BUTTONS */
-.btns{
-  float: right
+
+.btns {
+  float: right;
 }
+
 .btn {
   text-transform: uppercase;
   color: white;
   background-color: #567b95;
   outline: none;
   border: 1px solid #326891;
-font-size: 13px;
-font-weight: 600;
-font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
-padding: 9px 7px 7px 7px;
-border-radius: 3px;
-margin-left: 5px;
-transition: ease 0.6s;
-cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
+  padding: 9px 7px 7px 7px;
+  border-radius: 3px;
+  margin-left: 5px;
+  transition: ease 0.6s;
+  cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #326891;
-  border:1px solid #326891;
+  border: 1px solid #326891;
 }
 
 /*  WORKING ON SECTION-HEADER */
 
-.section-header{
+.section-header {
   margin-top: 122px;
   min-width: 490px;
   max-width: 1349px;
 }
+
 .main-title {
   font-size: 40px;
   max-width: 385px;
   height: 96px;
   margin-left: 26%;
-  font-family: 'nyt-cheltenham', Georgia, 'Times New Roman', Times, serif;
+  font-family: "nyt-cheltenham", Georgia, "Times New Roman", Times, serif;
   font-style: italic;
-color: #121212;
-padding-bottom: 30px;
+  color: #121212;
+  padding-bottom: 30px;
 }
-.first-photo{
+
+.first-photo {
   max-width: 945px;
   min-width: 500px;
   margin: 20px auto 40px auto;
 }
+
 .first-photo img {
   width: 100%;
   margin-bottom: 10px;
 }
+
 .first-photo figcaption {
   min-width: 30%;
   max-width: 75%;
 }
 
 /* WORKING ON ICONS */
-.icons svg{
+
+.icons svg {
   border: 1px solid white;
   background-color: #eee;
   border-radius: 100%;
@@ -193,13 +228,16 @@ padding-bottom: 30px;
   cursor: pointer;
   margin-right: 10px;
 }
-.icons svg:hover{
+
+.icons svg:hover {
   border: 1px solid #eee;
   border-radius: 100%;
   background-color: transparent;
 }
-.send, .share{
-  border:none;
+
+.send,
+.share {
+  border: none;
   background: transparent;
   outline: none;
 }
@@ -207,19 +245,21 @@ padding-bottom: 30px;
 .share {
   cursor: pointer;
 }
+
 .share:hover #share-stroke {
   stroke: #eee;
 }
 
 /* WORKING ON DIV-CONTAINER */
-.section-grid{
+
+.section-grid {
   margin-right: 90px;
   margin-left: 270px;
   display: grid;
   grid-template-columns: 1fr 210px;
 }
 
-.main-section-header-date-n-btns{
+.main-section-header-date-n-btns {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -227,145 +267,171 @@ padding-bottom: 30px;
 
 /* WORKING ON THEORY SECTION */
 
-  .theory-txt1 {
-    display: flex;
-    position: relative;
-    bottom: 490px;
-    left: 100px;
-    width: 1000px;
-  }
-  .theory-txt2 {
-    display: flex;
-    position: relative;
-    bottom: 300px;
-    left: 100px;
-    width: 1000px;
-  }
-  .theory-txt1 p, .theory-txt2 p {
-    width: 230px;
-    margin-right: 16px;
-  }
-
-  .theory-bar {
-    margin-top: -265px;
-    margin-left: 30px;
-    width: 100px;
-    border: 0.5px solid black;
-  }
-
-  /* footer 2nd section */
-  .footer-last-section {
-    margin: 30px 0 55px 0;
-    color: #666666;
-  }
-  .footer-last-section a {
-    color: #666666;
-  }
-
-  .footer-last-section-div {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .footer-btn {
-    width: 330px;
-  }
-/* WORKING ON SIDEBAR */
-.sidebar{
-  
+.theory-txt1 {
+  display: flex;
+  position: relative;
+  bottom: 490px;
+  left: 100px;
+  width: 1000px;
 }
 
+.theory-txt2 {
+  display: flex;
+  position: relative;
+  bottom: 300px;
+  left: 100px;
+  width: 1000px;
+}
+
+.theory-txt1 p,
+.theory-txt2 p {
+  width: 230px;
+  margin-right: 16px;
+}
+
+.theory-bar {
+  margin-top: -265px;
+  margin-left: 30px;
+  width: 100px;
+  border: 0.5px solid black;
+}
+
+/* footer 2nd section */
+.footer-last-section {
+  margin: 30px 0 55px 0;
+  color: #666666;
+}
+
+.footer-last-section a {
+  color: #666666;
+}
+
+.footer-last-section-div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-btn {
+  width: 330px;
+}
+
+/* WORKING ON SIDEBAR */
+/* .sidebar{
+  
+} */
+
 /* WORKING ON PRE-FOOTER SECTION */
-.last-grid{
+.last-grid {
   display: grid;
   grid-template-columns: 1fr 315px;
   grid-template-rows: auto;
-  grid-template-areas: "m s"
-                       "e s";
+  grid-template-areas:
+    "m s"
+    "e s";
 }
-.more{
+
+.more {
   grid-area: m;
 }
-.popular-sidebar{
+
+.popular-sidebar {
   grid-area: s;
 }
-.editors-picks-flex{
+
+.editors-picks-flex {
   grid-area: e;
   padding-bottom: 40px;
 }
+
 .more-space {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 20px;
-
 }
+
 .more-divs {
   flex: 1 1 270px;
   margin: 5px;
   width: 270px;
 }
-.more-divs img, .more-divs p{
+
+.more-divs img,
+.more-divs p {
   max-width: 270px;
 }
+
 .more-divs h3 {
   max-width: 262px;
 }
+
 /* POPULAR SIDEBAR */
-.popular-sidebar{
+
+.popular-sidebar {
   margin-left: 30px;
 }
+
 .last-section h2 {
   padding-top: 17px;
   border-top: 1px solid black;
 }
-.popular-sidebar a{
+
+.popular-sidebar a {
   display: block;
   border-top: 0.5px solid #999999;
   padding: 15px 0;
   font-size: 18px;
-  font-family: 'nyt-cheltenham', Georgia, 'Times New Roman', Times, serif;
+  font-family: "nyt-cheltenham", Georgia, "Times New Roman", Times, serif;
   color: #121212;
   font-weight: 500;
 }
+
 /* WORKING ON EDITORS-PICKS */
-.editors-picks-flex{
+
+.editors-picks-flex {
   display: flex;
 }
+
 /* WORKING ON CATEGORIES SECTION */
-.categories-container{
+.categories-container {
   max-width: 1200px;
   min-width: 600px;
   margin: 0 auto;
   padding-bottom: 10px;
   box-shadow: 0 5px 1px -5px #333;
 }
-.categories-container:before{
+
+.categories-container:before {
   border-bottom: 1px solid #e2e2e2;
-    border-top: 2px solid #e2e2e2;
-    content: '';
-    display: block;
-    height: 1px;
-    margin-top: 0;
+  border-top: 2px solid #e2e2e2;
+  content: "";
+  display: block;
+  height: 1px;
+  margin-top: 0;
 }
-.categories{
+
+.categories {
   display: flex;
 }
-.categories > div{
+
+.categories > div {
   width: 195px;
 }
+
 .categories-title {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
   padding-bottom: 10px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
 }
-.categories-links{
+
+.categories-links {
   color: #000000;
   width: 150px;
   line-height: 1.7;
   font-size: 14px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
   text-transform: capitalize;
 }
 
@@ -374,78 +440,92 @@ padding-bottom: 30px;
   box-shadow: -5px 0 1px -5px #333;
   padding-left: 10px;
 }
-.categorie-subscribe h3{
+
+.categorie-subscribe h3 {
   margin-left: 10px;
 }
-.categories-icons svg{
+
+.categories-icons svg {
   width: 15px;
   height: 15px;
 }
+
 .categories-icons {
   padding-right: 5px;
 }
-.subscribe-links{
+
+.subscribe-links {
   padding: 0 0 5px 10px;
   text-transform: capitalize;
   font-size: 16px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
   font-weight: 700;
   color: #121212;
 }
-.subscribe-list li{
+
+.subscribe-list li {
   margin-bottom: 10px;
 }
-.subscribe-smaller-links{
+
+.subscribe-smaller-links {
   font-size: 11px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
   text-transform: capitalize;
 }
-.subscribe-small-list{
+
+.subscribe-small-list {
   height: 15px;
 }
-.subscribe-bar{
 
+.subscribe-bar {
   height: 0.1px;
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
-.div-footer{
+
+.div-footer {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
-.homepage-anchor{
+
+.homepage-anchor {
   font-size: 11px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
   color: #567b95;
 }
-.footer-logo{
+
+.footer-logo {
   margin: 10px 0 20px 0;
 }
+
 /* WORKING ON FOOTER */
-footer{
+
+footer {
   width: fit-content;
   margin: 0 auto 70px auto;
-  
-  
 }
-footer nav ul{
+
+footer nav ul {
   display: flex;
 }
+
 footer nav ul li {
   margin-right: 10px;
   padding: 10px 0;
 }
+
 .footer-links {
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
   font-size: 11px;
   color: #777777;
 }
 
 /* WORKING ON FIXED BBOTTOM BAR */
-.fixed-bottom{
+
+.fixed-bottom {
   margin: 0 auto;
   position: fixed;
-  bottom:0px;
+  bottom: 0px;
   vertical-align: baseline;
   width: 100%;
   height: 55px;
@@ -457,30 +537,33 @@ footer nav ul li {
   justify-content: center;
   cursor: pointer;
 }
-.fixed-bottom p{
+
+.fixed-bottom p {
   font-size: 15px;
   font-weight: 600;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
 }
-.expand{
+
+.expand {
   display: flex;
   align-items: center;
   position: relative;
   left: 27%;
 }
-.expand p{
+
+.expand p {
   padding-right: 40px;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
   font-size: 14px;
-  font-family: 'nyt-franklin', Arial, Helvetica, sans-serif;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
 }
-.btn-fixed-bottom{
+
+.btn-fixed-bottom {
   transform: rotate(-90deg);
   outline: none;
   border: none;
   background: none;
-
 }
 /* TESTS */

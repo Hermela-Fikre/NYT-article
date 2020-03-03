@@ -477,7 +477,7 @@ time {
   box-shadow: 0 5px 1px -5px #333;
 }
 
-.categories-container :before {
+.categories-container ::before {
   border-bottom: 1px solid #e2e2e2;
   border-top: 2px solid #e2e2e2;
   display: block;

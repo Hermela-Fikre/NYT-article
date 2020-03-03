@@ -4,7 +4,9 @@
 
 ![screenshot](./img/screenshot.png)
 
-Additional description about the project and its features.
+## Description
+
+ This page is one of ours required projects on micreverse and the porpouse of it is to learn properly how to use grid, flexbox and float. That was a good project to work with, because the page was chosen for have a layout that will be very usual for us, when facing daily real projects that we'll have to chose which one use grid or flex? Now we know that it depends of the situation.
 
 ## Built With
 
@@ -14,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo](------)
+[Live Demo](https://raw.githack.com/Kevinalvesdev/NYT-article/NYT-Clone/index.html)
 
 ## Getting Started
 

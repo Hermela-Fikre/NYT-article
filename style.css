@@ -190,9 +190,10 @@ iframe {
 }
 /*  WORKING ON SECTION-HEADER */
 .section-header {
-  margin-top: 122px;
+  padding-top: 122px;
   min-width: 490px;
   max-width: 1349px;
+  margin: 0 auto;
 }
 .main-title {
   font-size: 40px;

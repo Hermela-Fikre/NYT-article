@@ -22,6 +22,11 @@ main {
   width: 1170px;
 }
 
+img {
+  width: 100%;
+  cursor: pointer;
+}
+
 .icon-comment {
   height: 30px;
   width: 30px;
@@ -57,7 +62,7 @@ main {
 }
 
 .sidebar-paid a {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   padding: 10px 10px 10px 5px;
 }
 
@@ -69,6 +74,7 @@ main {
   margin-left:15px;
   padding-right: 20px;
 }
+
 .strong-p {
   width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -79,11 +85,6 @@ main {
 .strong {
   text-transform: uppercase;
   font-weight: 900;
-}
-
-img {
-  width: 100%;
-  cursor: pointer;
 }
 
 .iframe {
@@ -104,16 +105,23 @@ iframe {
   margin-bottom: 15px;
   line-height: 1.5;
 }
-.captions, .h3-title, .paragraph {
+
+.captions,
+.h3-title,
+.paragraph {
   font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
 }
+
 .h3-title {
   font-weight: bold;
   font-family: "nyt-imperial", Georgia, "Times New Roman", Times, serif;
   margin-bottom: 20px;
 }
 
-.strong, .subscribe-smaller-links, .homepage-anchor, .footer-links {
+.strong,
+.subscribe-smaller-links,
+.homepage-anchor,
+.footer-links {
   font-size: 11px;
 }
 
@@ -126,11 +134,18 @@ iframe {
   font-family: "nyt-frankin", Arial, Helvetica, sans-serif;
 }
 
-.captions, .section-intro-header h3, .section-intro-header a, .fixed-bottom p {
+.captions,
+.section-intro-header h3,
+.section-intro-header a,
+.fixed-bottom p {
   font-size: 15px;
 }
 
-.nav-link a, .theory p, .sidebar-title, .categories-links, .expand p {
+.nav-link a,
+.theory p,
+.sidebar-title,
+.categories-links,
+.expand p {
   font-size: 14px;
 }
 
@@ -435,13 +450,6 @@ time {
   margin-left: 100px;
   width: 70px;
   border: 0.5px solid black;
-}
-
-.theory-cap {
-  padding: 20px 0;
-  position: relative;
-  left: 100px;
-  width: fit-content;
 }
 
 .theory-cap {

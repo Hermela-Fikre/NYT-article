@@ -38,9 +38,11 @@ iframe {
 
 /* CLASSES OF GENERAL PROPORSE */
 
-.paragraph, .h3-title, .paragraph-link {
+.paragraph,
+.h3-title,
+.paragraph-link {
   font-size: 20px;
-  font-family: "nyt-imperial","Times New Roman",Times, serif;
+  font-family: "nyt-imperial","Times New Roman",serif;
   margin-bottom: 15px;
   line-height: 1.5;
 }
@@ -79,6 +81,38 @@ iframe {
   font-weight: 500;
 }
 
+.footer-links {
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #777;
+}
+
+.categories-icons svg {
+  width: 15px;
+  height: 15px;
+}
+
+.categories-links {
+  color: #000;
+  width: 150px;
+  line-height: 1.7;
+  font-size: 14px;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.nav-link a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+}
+
+.section-intro-header a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .h2-hover:hover,
 .footer-last-section a:hover,
 .categories-links:hover,
@@ -94,6 +128,7 @@ iframe {
   color: #999;
   margin-bottom: 4px;
 }
+
 .more-divs-h3 {
   font-size: 18px;
   font-family: "nyt-cheltenham", Georgia, "Times New Roman", Times, serif;
@@ -165,13 +200,6 @@ iframe {
   margin: 7px 0 5px 0;
 }
 
-.nav-link a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: black;
-
-}
 .main-logo {
   height: 27px;
   display: inline-block;
@@ -216,7 +244,7 @@ iframe {
   margin-top: 122px;
   min-width: 490px;
   max-width: 1349px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .main-title {
@@ -295,6 +323,7 @@ iframe {
 }
 
 /* WORKING ON DIV-CONTAINER */
+
 .section-grid {
   margin-right: 90px;
   margin-left: 270px;
@@ -314,16 +343,12 @@ iframe {
   padding-bottom: 15px;
 }
 
-.section-intro-header a {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
 time {
   font-family: Helvetica, Arial, sans-serif;
 }
 
 /* WORKING ON THEORY SECTION */
+
 .theory-p {
   color:#666;
   margin: -15px 0 10px 0;
@@ -351,27 +376,27 @@ time {
   margin-right: 16px;
 }
 
-.theory-txt1 {
+/* .theory-txt1 {
   display: flex;
   position: relative;
   bottom: 490px;
   left: 100px;
   width: 1000px;
-}
+} */
 
-.theory-txt2 {
+/* .theory-txt2 {
   display: flex;
   position: relative;
   bottom: 300px;
   left: 100px;
   width: 1000px;
-}
+} */
 
-.theory-txt1 p,
+/* .theory-txt1 p,
 .theory-txt2 p {
   width: 230px;
   margin-right: 16px;
-}
+} */
 
 .theory-bar {
   margin-top: -265px;
@@ -381,6 +406,7 @@ time {
 }
 
 /* footer 2nd section */
+
 .footer-last-section {
   margin: 30px 0 55px 0;
   color:#666;
@@ -406,6 +432,7 @@ time {
 } */
 
 /* WORKING ON PRE-FOOTER SECTION */
+
 .last-grid {
   display: grid;
   grid-template-columns: 1fr 315px;
@@ -478,7 +505,7 @@ time {
 .categories-container:before {
   border-bottom: 1px solid #e2e2e2;
   border-top: 2px solid #e2e2e2;
-  content: "";
+  /* content: ""; */
   display: block;
   height: 1px;
   margin-top: 0;
@@ -499,16 +526,8 @@ time {
   font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
 }
 
-.categories-links {
-  color: #000;
-  width: 150px;
-  line-height: 1.7;
-  font-size: 14px;
-  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
-  text-transform: capitalize;
-}
-
 /* SUBSCRIBE CATEGORIE */
+
 .categorie-subscribe {
   box-shadow: -5px 0 1px -5px #333;
   padding-left: 10px;
@@ -518,13 +537,13 @@ time {
   margin-left: 10px;
 }
 
-.categories-icons svg {
-  width: 15px;
-  height: 15px;
-}
-
 .categories-icons {
   padding-right: 5px;
+}
+
+footer nav ul li {
+  margin-right: 10px;
+  padding: 10px 0;
 }
 
 .subscribe-list li {
@@ -572,22 +591,11 @@ footer nav ul {
   display: flex;
 }
 
-footer nav ul li {
-  margin-right: 10px;
-  padding: 10px 0;
-}
-
-.footer-links {
-  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
-  font-size: 11px;
-  color: #777;
-}
-
 /* WORKING ON FIXED BBOTTOM BAR */
 .fixed-bottom {
   margin: 0 auto;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
   vertical-align: baseline;
   width: 100%;
   height: 55px;
@@ -628,7 +636,9 @@ footer nav ul li {
   border: none;
   background: none;
 }
+
 /* TESTS */
+
 .paragraph-link {
   color: #326891;
   font-family: 'nyt-franklin', Georgia, 'Times New Roman', Times, serif;

@@ -27,15 +27,22 @@ img {
   cursor: pointer;
 }
 
-.icon-comment {
-  height: 30px;
-  width: 30px;
+.icon-comments img {
+  width: 35px;
+}
+.icon-comments {
+  padding-left: 15px;
 }
 
 .sidebar {
   left: 100px;
   position: relative;
-  top: 700px;
+  top: 900px;
+}
+
+.sidebar-title {
+  box-shadow: 0 5px 1px -5px #333;
+  padding-bottom: 15px;
 }
 
 .sidebar div {
@@ -57,7 +64,7 @@ img {
 .side-p {
   font-family: 'nyt-cheltenham-small', Georgia, 'Times New Roman', Times, serif;
   font-size: 13.3px;
-  margin: 10px 13.5px 0 13.5px;
+  margin: 10px 4px 0 13.5px;
   width: 100%;
 }
 
@@ -104,6 +111,12 @@ iframe {
   font-family: "nyt-imperial", "Times New Roman", serif;
   margin-bottom: 15px;
   line-height: 1.5;
+}
+
+.footer-last-section a:hover,
+.paragraph-link:hover,
+.section-intro-header a:hover {
+  text-decoration: none;
 }
 
 .captions,
@@ -202,6 +215,13 @@ iframe {
 
 .footer-last-section a {
   color: #666;
+}
+
+.btn,
+.captions span,
+time,
+.categories-title {
+  font-size: 13px;
 }
 
 .section-intro-header h3,
@@ -320,7 +340,6 @@ iframe {
   background-color: #567b95;
   outline: none;
   border: 1px solid #326891;
-  font-size: 13px;
   font-weight: 600;
   font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
   padding: 9px 7px 7px 7px;

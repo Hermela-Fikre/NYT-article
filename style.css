@@ -30,6 +30,7 @@ img {
 .icon-comments img {
   width: 35px;
 }
+
 .icon-comments {
   padding-left: 15px;
 }
@@ -116,10 +117,10 @@ iframe {
   line-height: 1.5;
 }
 
-.footer-last-section a:hover,
-.paragraph-link:hover,
-.section-intro-header a:hover {
-  text-decoration: none;
+.paragraph-link {
+  color: #326891;
+  font-family: 'nyt-franklin', Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
 }
 
 .captions,
@@ -670,6 +671,11 @@ footer nav ul li {
   margin: 10px 0 20px 0;
 }
 
+.footer-last-section a:hover,
+.paragraph-link:hover,
+.section-intro-header a:hover {
+  text-decoration: none;
+}
 /* WORKING ON FOOTER */
 
 footer {
@@ -729,8 +735,4 @@ footer nav ul {
 
 /* TESTS */
 
-.paragraph-link {
-  color: #326891;
-  font-family: 'nyt-franklin', Georgia, 'Times New Roman', Times, serif;
-  text-decoration: underline;
-}
+

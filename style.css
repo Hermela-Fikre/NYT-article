@@ -42,7 +42,7 @@ iframe {
 .h3-title,
 .paragraph-link {
   font-size: 20px;
-  font-family: "nyt-imperial","Times New Roman",serif;
+  font-family: "nyt-imperial", "Times New Roman", serif;
   margin-bottom: 15px;
   line-height: 1.5;
 }
@@ -114,7 +114,7 @@ iframe {
 }
 
 .footer-last-section a {
-  color:#666;
+  color: #666;
 }
 
 .section-intro-header h3,
@@ -354,7 +354,7 @@ time {
 /* WORKING ON THEORY SECTION */
 
 .theory-p {
-  color:#666;
+  color: #666;
   margin: -15px 0 10px 0;
 }
 
@@ -413,7 +413,7 @@ time {
 
 .footer-last-section {
   margin: 30px 0 55px 0;
-  color:#666;
+  color: #666;
 }
 
 .footer-last-section-div {
@@ -425,11 +425,6 @@ time {
 .footer-btn {
   width: 330px;
 }
-
-/* WORKING ON SIDEBAR */
-/* .sidebar{
-  
-} */
 
 /* WORKING ON PRE-FOOTER SECTION */
 
@@ -502,7 +497,6 @@ time {
 .categories-container:before {
   border-bottom: 1px solid #e2e2e2;
   border-top: 2px solid #e2e2e2;
-  /* content: ""; */
   display: block;
   height: 1px;
   margin-top: 0;

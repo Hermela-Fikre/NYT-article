@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/Kevinalvesdev/NYT-article/NYT-Clone/index.html)
+[Live Demo](https://raw.githack.com/Hermela-Fikre/NYT-article/NYT-Clone/index.html)
 
 ## Getting Started
 

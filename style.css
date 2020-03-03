@@ -10,7 +10,7 @@
   object-fit: contain;
 }
 
-body{
+body {
   max-width: 100%;
 }
 
@@ -38,7 +38,7 @@ iframe {
 
 /* CLASSES OF GENERAL PROPORSE */
 
-.paragraph, .h3-title, .paragraph-link{
+.paragraph, .h3-title, .paragraph-link {
   font-size: 20px;
   font-family: "nyt-imperial","Times New Roman",Times, serif;
   margin-bottom: 15px;
@@ -58,6 +58,25 @@ iframe {
   color: #333;
   font-weight: 700;
   font-family: "nyt-frankin", Arial, Helvetica, sans-serif;
+}
+
+.subscribe-links {
+  padding: 0 0 5px 10px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #121212;
+}
+
+.popular-sidebar a {
+  display: block;
+  border-top: 0.5px solid #999;
+  padding: 15px 0;
+  font-size: 18px;
+  font-family: "nyt-cheltenham", Georgia, "Times New Roman", Times, serif;
+  color: #121212;
+  font-weight: 500;
 }
 
 .h2-hover:hover,
@@ -80,6 +99,7 @@ iframe {
   font-family: "nyt-cheltenham", Georgia, "Times New Roman", Times, serif;
   color: #121212;
 }
+
 .more-divs-h3:hover,
 .popular-sidebar a:hover {
   color: #777;
@@ -134,6 +154,7 @@ iframe {
 .icon svg {
   width: 16px;
 }
+
 .menu-div,
 .search-div,
 .nav-link {
@@ -184,6 +205,7 @@ iframe {
   transition: ease 0.6s;
   cursor: pointer;
 }
+
 .btn:hover {
   background-color: #326891;
   border: 1px solid #326891;
@@ -207,6 +229,7 @@ iframe {
   color: #121212;
   padding-bottom: 30px;
 }
+
 .first-photo {
   max-width: 945px;
   min-width: 500px;
@@ -223,13 +246,16 @@ iframe {
   max-width: 75%;
   color: #666;
 }
+
 .captions {
   color: #666;
   padding: 15px 0;
 }
+
 .captions p {
   font-family: 'nyt-imperial', Georgia, 'Times New Roman', Times, serif;
 }
+
 .captions span {
   color: #888;
 }
@@ -246,6 +272,7 @@ iframe {
   cursor: pointer;
   margin-right: 15px;
 }
+
 .icons svg:hover {
   border: 1px solid #eee;
   border-radius: 100%;
@@ -433,15 +460,6 @@ time {
   padding-top: 17px;
   border-top: 1px solid black;
 }
-.popular-sidebar a {
-  display: block;
-  border-top: 0.5px solid #999;
-  padding: 15px 0;
-  font-size: 18px;
-  font-family: "nyt-cheltenham", Georgia, "Times New Roman", Times, serif;
-  color: #121212;
-  font-weight: 500;
-}
 
 /* WORKING ON EDITORS-PICKS */
 .editors-picks-flex {
@@ -508,14 +526,6 @@ time {
 .categories-icons {
   padding-right: 5px;
 }
-.subscribe-links {
-  padding: 0 0 5px 10px;
-  text-transform: capitalize;
-  font-size: 16px;
-  font-family: "nyt-franklin", Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  color: #121212;
-}
 
 .subscribe-list li {
   margin-bottom: 10px;
@@ -557,6 +567,7 @@ footer {
   width: fit-content;
   margin: 0 auto 70px auto;
 }
+
 footer nav ul {
   display: flex;
 }
@@ -601,6 +612,7 @@ footer nav ul li {
   position: relative;
   left: 27%;
 }
+
 .expand p {
   padding-right: 40px;
   text-transform: uppercase;
